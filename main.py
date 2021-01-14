@@ -1,9 +1,9 @@
-def calculate(x, y):
-    if "add":
+def calculate(x, y, epic):
+    if epic == "add":
         return x + y
-    else "subtract":
+    elif epic == "subtract":
         return x - y
-    elif "multiply":
+    elif epic == "multiply":
         return x * y
-    elif "divide":
+    elif epic == "divide":
         return x % y
