@@ -7,3 +7,5 @@ def calculate(x, y, order):
         return x * y
     elif order == "divide":
         return x % y
+
+        print (calculate(x, y, add))
