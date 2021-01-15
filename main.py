@@ -1,4 +1,4 @@
-def calculate(x, y, order):
+def calculate(order, x, y):
     if order == "add":
         return x + y
     elif order == "subtract":
@@ -8,4 +8,4 @@ def calculate(x, y, order):
     elif order == "divide":
         return x % y
 
-        print (calculate(x, y, add))
+        print (calculate(add, 2, 2))
